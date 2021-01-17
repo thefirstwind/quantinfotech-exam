@@ -9,7 +9,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="exam03" />
         <module name="exam02" />
-        <module name="exam01" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

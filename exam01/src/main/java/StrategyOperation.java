@@ -66,6 +66,35 @@ public class StrategyOperation {
   /**
    * 无参构造器 在class最初，读取 config/strategy.properties 文件
    * 将读取到的 配置信息保存在 config 对象中。
+   *
+   * strategy.login.path
+   *   user pass
+   * strategy.logout.path
+   * strategy.start.path
+   *   cookie: userName
+   *   instanceId
+   * strategy.stop.path
+   *   instanceId
+   * strategy.update.path
+   *   input
+   * strategy.add.path
+   *   cookie: user
+   *   input
+   * strategy.find.path
+   *   cookie: user
+   *   username
+   * strategy.upLoad.path
+   *   filename
+   * manual.placeOrder.path
+   *   cookie: username
+   * manual.cancelOrder.path
+   * strategy.risk.path
+  *
+   * risk.find.path
+   *     cookie: user
+   *
+   * strategy.findAlgo.path
+   *   cookie: user
    */
   public StrategyOperation() {
     httpClient = new HttpClientUtil2();
