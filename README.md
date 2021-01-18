@@ -92,7 +92,7 @@ https://github.com/thefirstwind/quantinfotech-exam/tree/main/exam02/src/main/jav
 * 123M 需要 16s
 * 2T大小的文件需要多少时间
 $$  
-\frac{2T}{2T所需时间} = \frac{123M}{16s}
+\frac{2T}{2T所需时间} = \frac{123M}{16s} = 速度
 $$
 
 2T所需的时间是=2*1024*1024 ÷ 123 x 16s =75h
