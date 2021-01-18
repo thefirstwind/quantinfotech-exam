@@ -124,7 +124,10 @@ $$
 * 数据库mysql的设计思路
   * 按照时间
 
+
+原始图
 ![](/images/WechatIMG372.jpeg)
 
-
+整理后
+![](/images/workflow01.png)
 
